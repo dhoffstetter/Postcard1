@@ -104,6 +104,15 @@
                                     <rect key="frame" x="287" y="137" width="80" height="80"/>
                                 </variation>
                             </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dr8-je-bNb">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="149" width="258" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +122,7 @@
                                 <exclude reference="uUR-xX-YO2"/>
                                 <exclude reference="V2l-th-wPc"/>
                                 <exclude reference="yp3-kU-gSG"/>
+                                <exclude reference="dr8-je-bNb"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,6 +132,7 @@
                                 <include reference="uUR-xX-YO2"/>
                                 <include reference="V2l-th-wPc"/>
                                 <include reference="yp3-kU-gSG"/>
+                                <include reference="dr8-je-bNb"/>
                             </mask>
                         </variation>
                     </view>
@@ -130,6 +141,7 @@
                         <outlet property="enterNameTextField" destination="q5X-Ll-AQ5" id="eXP-le-AbA"/>
                         <outlet property="mailButton" destination="uUR-xX-YO2" id="JDR-Xl-ZQz"/>
                         <outlet property="messageLabel" destination="V2l-th-wPc" id="8LX-r4-xz2"/>
+                        <outlet property="nameLabel" destination="dr8-je-bNb" id="cDe-EF-mcc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
